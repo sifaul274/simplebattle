@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cottonee Battle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="cottnscript.js"></script>
+	<style type="text/css">
+		.plypic{
+			background-image: url("../gallery/Cottonee(S)-L.png");
+			background-size: 80px 80px;
+		}
+		.enmpic{
+			background-image: url("../gallery/Cottonee-R.png");
+			background-size: 80px 80px;
+		}
+		.sk{
+			background-color: rgb(200,200,200);
+			display: inline-block;
+			color: white;
+			margin-top: 8px;
+			border-radius: 8px;
+			border: solid;
+			border-color: white;
+			border-width: 3.5px;
+			font-size: 16px;
+		}
+		.sk1{
+			background-color: rgb(152,251,152);
+			padding: 20px 20px;
+			margin-left: 10px;
+		}
+		.sk2{
+			float: right;
+			background-color: rgb(255,192,203);
+			padding: 20px 20px;
+			margin-right: 10px;
+		}
+		.sk:active{
+			font-size: 14px;
+			margin-top: 10px;
+		}
+		.sk1:active{
+			margin-left: 16px;
+		}
+		.sk2:active{
+			margin-right: 15px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="pic uni-wdth">
+		<div>
+			<a href="choose.html">
+				<button class="bc-btn">Back</button>
+			</a>
+		</div>
+		<div class="ply" id="imgPly">
+			<div class="plyhp" id="hp1">HP : <script type="text/javascript">document.write(plyhp)</script></div>
+			<div class="poke plypic"><div id="hitImg1" class="hitply"></div></div>
+		</div>
+		<div class="enm" id="imgEnm">
+			<div class="enmhp" id="hp2">HP : <script type="text/javascript">document.write(enmhp)</script></div>
+			<div class="poke enmpic"><div id="hitImg2"  class="hitenm"></div></div>
+		</div>
+	</div>
+	<div class="sk-btn uni-wdth" id="sk-btn-b"></div>
+	<div class="sk-btn uni-wdth" id="sk-btn2">
+		<button class="sk sk1" onclick="skill1()">Mega Drain</button>
+		<button class="sk sk2" onclick="skill2()">Fairy Wind</button>
+	</div>
+	<div class="footer">
+		<script type="text/javascript">document.write(ft_txt)</script>
+	</div>
+<!-- 425px -->
+</div>
+</body>
+</html>

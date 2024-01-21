@@ -1,0 +1,171 @@
+.container{
+	background-image: linear-gradient(to bottom right, rgb(250,250,250), rgb(150,250,255));
+	padding: 10px 0px;
+}
+.uni-wdth{
+	width: 280px;
+}
+.start{
+	height: 425px;
+	background-color: rgba(255,255,255,0.6);
+	margin: auto;
+	text-align: center;
+	display: flex;
+}
+a, a:hover, a:active, a:focus{
+	text-decoration: none;
+	color: inherit;
+	flex: 1;
+}
+.tap{
+	padding-top: 70px;
+	color: rgb(0,191,255);
+	font-family:verdana;
+}
+.start-btn{
+	margin-top: 170px;
+	padding: 12px 25px;
+	border: solid;
+	border-color: rgb(250,250,250);
+	background-color: rgb(150,250,255);
+	border-radius: 10px;
+	color: rgb(250,250,250);
+	font-size: 17px;
+}
+.start-btn:active{
+	margin-top: 172px;
+	font-size: 13px;
+}
+.pic{
+	height: 280px;
+	margin: auto;
+	background-image: url("../gallery/arena-1.png");
+	background-size: 280px 280px;
+}
+.bc-btn{
+	display: inline-block;
+	font-size: 12px;
+	padding: 2px 4px;
+	margin-top: 4px;
+	margin-left: 4px;
+	color: white;
+	background-color: rgb(220,0,0);
+	border: solid;
+	border-width: 2px;
+	border-radius: 4px;
+}
+.bc-btn:active{
+	font-size: 11px;
+	margin-top: 5px;
+	margin-left: 6px;
+}
+.sk-btn{
+	height: 80px;
+	margin: auto;
+	margin-top: 10px; 
+	background-color: rgba(250,250,250,0.6);
+}
+.footer{
+	/*width: 272px;*/
+	width: 280px;
+	height: 34px;
+	margin: auto;
+	margin-top: 10px;
+	/*background-color: rgb(130,240,255);*/
+	background-color: rgb(0,191,255);
+	/*border-radius: 10px;
+	border: solid;
+	border-color: rgb(245,245,245);
+	border-width: 4px;*/
+	text-align: center;
+	color: white;
+	padding-top: 11px;
+}
+.poke{
+	height: 80px;
+	width: 80px;
+}
+.ply{
+	float: left;
+	margin-top: 58px;
+	margin-left: 4px;
+}
+.enm{
+	float: right;
+	margin-top: 58px;
+	margin-right: 4px;
+}
+.plyhp{
+	text-align: center;
+	color: rgb(250,250,250);
+	background-color: rgb(250,0,50);
+	font-size: 13px;
+}
+.enmhp{
+	text-align: center;
+	color: rgb(250,250,250);
+	background-color: rgb(250,0,50);
+	font-size: 13px;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.hitply{
+	height: 60px;
+	width: 60px;
+	background-image: url("../gallery/hit-effect.png");
+	background-size: 60px 60px;
+	float: right;
+	margin-top: 15px;
+	display: none;
+}
+.hitenm{
+	height: 60px;
+	width: 60px;
+	background-image: url("../gallery/hit-effect.png");
+	background-size: 60px 60px;
+	float: left;
+	margin-top: 15px;
+	display: none;
+}
+#sk-btn-b{
+	display: none;
+}
+.con-stg{
+	height: 65px;
+}
+.stg-btn{
+	display: inline-block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	border-width: 4px;
+	font-size: 17px;
+	margin-top: 6px;
+}
+.stg-btn:active{
+	font-size: 15px;
+	margin-top: 7px;
+}
+.scrl{
+	overflow: auto;
+}
+.spc-head{
+	height: 30px;
+	background-color: rgb(0,191,255);
+	margin: auto;
+	margin-bottom: 10px;
+}
+.spc{
+	height: 15px;
+}
+.cho-body{
+	height: 385px;
+	background-color: rgba(255,255,255,0.6);
+	margin: auto;
+	text-align: center;
+}
